@@ -55,6 +55,41 @@
             bindings = <&tog 4>;
             key-positions = <44 45>;
         };
+
+        Caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <0 43>;
+        };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
+        };
+
+        OffScreen {
+            bindings = <&kp LG(LC(Q))>;
+            key-positions = <0 12>;
+        };
+
+        RT {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <4 5>;
+        };
+
+        YU {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 8>;
+        };
+
+        FG {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 18>;
+        };
+
+        HJ {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <22 23>;
+        };
     };
 
     keymap {
